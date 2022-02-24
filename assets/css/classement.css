@@ -1,0 +1,17 @@
+.blueberry-kush{
+    height: 50vh;
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/img/Civilization-VI-06-HD.png)
+}
+.lemon-haze{
+    display:flex;
+}
+.white-widow{
+    display:flex;
+}
+.amnesia-haze{
+    display:flex;
+}
