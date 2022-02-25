@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/css/map.css">
 </head>
 <body>
-   <?php include('assets/includes/navbar.php'; ?>
+   <?php include('assets/includes/navbar.php' ?>
 <div id="corps-map">
     <div class="map" id="map">
         <div class="map__image">
