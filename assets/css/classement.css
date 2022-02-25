@@ -1,17 +1,97 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
 .blueberry-kush{
     height: 50vh;
     width: 100vw;
     display:flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./assets/img/Civilization-VI-06-HD.png)
+    background:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('../img/banner1.png');
+    background-repeat:  no-repeat;
+    background-position: center ;
+    background-size: cover;
+}
+.orange-bud{
+    color: white;
+    font-size: 48px;
+    font-style: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-top: 10%;
 }
 .lemon-haze{
     display:flex;
+    flex-direction: row;
+    height: 150vh;
+    width: 100vw;
 }
 .white-widow{
+    background-color: aquamarine;
     display:flex;
+    width: 10%;
+    height:100%;
 }
 .amnesia-haze{
+    background-color: #eacc97;
     display:flex;
+    justify-content: center;
+    width:90%;
+    height: 100%;
+}
+.belladonna{
+    height: 40px;
+    width: 50px;
+}
+.acapulco-gold{
+    width: 100%;
+    height: 100%;
+    margin-left: 13px;
+}
+.mango-kush{ /* <img src="./assets/img/1F1E8-1F1E6_color.png" */
+    display: flex;
+}
+.tangerine-g13{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.tftable {
+    font-size:12px;
+    color:#333333;
+    width:50%;
+    border-width: 1px;
+    border-color: #bcaf91;
+    border-collapse: collapse;
+}
+.tftable th {
+    font-size:12px;
+    background-color:#2c3e50;
+    color:white;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #bcaf91;
+    text-align:left;
+}
+.tftable tr {
+    background-color:#ffffff;
+}
+.tftable td {
+    font-size:24px;
+    border-width: 1px;
+    padding: 8px;
+    font-style: bold;
+    border-style: solid;
+    border-color: #bcaf91;
+    text-align: center;
+}
+.tftable tr:hover {
+    background-color:#93b0d0;
+    color: white;
 }
