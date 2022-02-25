@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dfdfdf;
+    overflow-x: hidden;
+}
+
+#corps-map {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+}
+
+.map__image {
+    height: 90%;
+    grid-column: 1;
+    align-self: center;
+    margin: 20px 0;
+}
+
+.map__image path{
+    fill: #082f49;
+    stroke: #12d4bb;
+    stroke-width: 0.5px;
+    transition: fill 0.3s;
+}
+
+/* pour les pays non-selectionnable en jeu */
+.map__image path:hover{
+    fill: #12d4bb;
+}
+
+/* pour les pays selectionnable en jeu */
+/* .map__image .is-active path{
+    fill: #12d4bb;
+} */
+
+.map__list {
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 10%;
+}
+
+#list1 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 50%;
+}
+
+#list2 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.map__list a{
+    color: #082f49;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.map__list a:hover{
+    color: #12d4bb;
+}
+
+#RU {
+    fill: #bebebe;
+}
+
+#RU:hover {
+    fill: #12d4bb;
+}
+
+@media all and (max-width: 1000px)
+{
+
+    #corps-map {
+        grid-template-columns: 90%;
+    }
+
+    .map__image {
+        justify-self: center;
+    }
+
+    .map__list {
+        display: none;
+    }
+}
+
+@media all and (max-width: 560px)
+{
+
+    #corps-map {
+        padding-bottom: 100px;
+    }
+}
+
+
+
+nav {
+    width: 100vw;
+    height: 100px;
+    background-color: #3f3f3f;
+}
+
+
+footer {
+    width: 100vw;
+    height: 10%;
+    background-color: #424242;
+    color: lightgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#logo-footer {
+    width: 10vw;
+    height: 10vw;
+}
+
+#footer-split {
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer-nav a{
+    text-decoration: none;
+    text-align: center;
+    color: lightgray;
+}
+
+#footer-nav ul{
+    margin-top: 20px;
+}
+
+#footer-nav li{
+    list-style: none;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#footer-copyright {
+    text-align: center;
+    align-self: center;
+}
