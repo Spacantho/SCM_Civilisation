@@ -8,9 +8,9 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <div class="inscription"><h1 align="center">inscription</h1>
-        <p align="center">inscription tournoi de civ</p>
+    <div class="video">  <video src="./video/CIVILIZATION VI - E3 2016 Walkthrough.mp4" muted autoplay loop></video>
+    <div class="inscription"><h1 align="center">Inscription</h1>
+        <p align="center">Inscription tournoi de civ</p>
         <form action="/inscription"methode="post">
         <br>
         <br>
