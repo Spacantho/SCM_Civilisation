@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background: #424242;
+    position : sticky;
+    top : 0px;
+    border-bottom: 1px solid #12d4bb;
+}
+
+.nav-burger{
+    display : none;
+}
+
+.nav-menug{
+    width: 100%;
+    position : relative;  
+}
+
+.nav-logo{
+    width: 50px;
+    height: 50px;
+    position : absolute;
+    left : 50px;
+}
+
+nav img{width: 100%; height:100%;}
+
+.nav-menu{
+    width: 80%;
+    height: 30px;
+    position : absolute;
+    right : 20px;
+    text-align: right;
+    padding-top : 1%;
+}
+
+.nav-menu a{
+    margin-right: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    color : white;
+    position : relative;
+}
+
+.nav-connexion{
+    background: #2c3e50;
+    color: white !important;
+    border : 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.connexionsite{
+    display: none;
+    width: 200px;
+    background: #082f49;
+    color: #12d4bb;
+    position: absolute;
+    top: 40px;
+    right : 50px;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #12d4bb;
+}
+
+.connexionsite input{
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.titreconnexion h1{
+    text-align: center;
+    font-size: 35px;
+    margin-top : 50px;
+    color : #082f49;
+}
+
+.connexion{
+    border: 2px solid green;
+    width: 60%;
+    margin-top : 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background: #2C3E50;
+    border : 1px solid #12d4bb;
+    box-shadow: grey 2px 5px 6px 3px;
+}
+
+.connexiondroite{
+    width: 30%;
+    text-align: left;
+    margin-right : 50px;
+}
+
+.connexiongauche{
+    width: 30%;
+    text-align: right;
+    color : #12d4bb;
+}
+
+.infoco {
+    margin : 30px 0px 20px 0px;
+    padding-bottom: 15px;
+    padding-right : 15px;
+}
+
+ .password{
+    margin-top : 45px;
+}
+
+.connexion .submitboutonco{
+    height : 35px;
+    margin-top : auto;
+    margin-bottom: auto;
+}
+
+.connexiondroite input{
+    margin : 20px 0px 20px 10px;
+    height: 35px;
+    border : 1px solid #12d4bb;
+    border-radius: 5px;
+    padding-left : 3px;
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+.submitboutonco{
+    border-radius: 5px;
+    background: #12d4bb;
+    color : #2C3E50;
+    height: 35px;
+    margin-top: 60px;
+    padding : 5px;
+    color : #082f49;
+}
+
+@media all and (max-width: 750px) {
+
+    .nav-menu{
+        display: none;
+    }
+
+    .nav-burger{
+        display : block;
+        position : absolute;
+        right : 20px;
+        text-align: right;
+        padding-top : 1%;
+        font-size: 25px;
+        
+    }
+
+    .nav-burger-list{
+        display : none;
+        border : 1px solid #12d4bb;
+        margin-top : 10px;
+        background: #082f49;
+        border-radius: 5px;
+    }
+
+    .nav-burger-list2{
+        display: flex;
+        flex-direction: column;
+        margin-top : 12px;
+        text-align: center;
+    }
+
+    .nav-burger-list a{
+    width: 150px;
+    font-size : 15px;
+    padding-bottom : 10px;
+    text-decoration: none;
+    color:#12d4bb;
+    padding-bottom: 15px;
+    }
+
+    
+
+    .nav-logo{
+        position : absolute;
+        animation : glisse 2s 1;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes glisse{
+        0%{margin-left: 25px;}
+        100%{margin-left: 125px;}
+    }
+
+
+}
