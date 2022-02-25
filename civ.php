@@ -10,7 +10,7 @@
 <body>
     <div class="video">  <video src="./video/CIVILIZATION VI - E3 2016 Walkthrough.mp4" muted autoplay loop></video>
     <div class="inscription"><h1 align="center">Inscription</h1>
-        <p align="center">Inscription tournoi de civ</p>
+        <p align="center">Serveur privé Civilisation</p>
         <form action="/inscription"methode="post">
         <br>
         <br>
